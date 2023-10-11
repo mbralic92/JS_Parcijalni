@@ -2,7 +2,7 @@
   searchInput.addEventListener("input", (e) => {
   const input = e.target.value;
     
-                  
+              
   const apiURL = `https://api.tvmaze.com/search/shows?q=${input}`;
 
   fetch(apiURL)
