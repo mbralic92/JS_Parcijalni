@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Parcijalni</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h2>Pretraži seriju</h2>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Parcijalni</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bodydiv">
+    <h2 class="title">Pretraži seriju</h2>
     <input class="search" type="text" placeholder="Upiši seriju" />
+    <div id="loader"></div>
     <table id="results">
       <thead>
         <tr>
@@ -21,7 +25,8 @@
       <tbody></tbody>
     </table>
     <p id="poruka"></p>
-    <div id="loader"></div>
     <script src="parcijalni.js"></script>
-  </body>
+  </div>
+</body>
+
 </html>
